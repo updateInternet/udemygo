@@ -1,3 +1,1 @@
-# udemygo
-
-This repo is for learning Go from Udemy
+This repository is for learning Go from Udemy.
