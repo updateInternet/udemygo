@@ -14,6 +14,7 @@ func main() {
 	fmt.Println(greet) // shouldnt be in order
 	delete(greet, 3)
 
+	// comma, ok idiom
 	if val, exists := greet[3]; exists {
 		fmt.Println("This value exists", "val: ", val, "exists: ", exists)
 	} else {
